@@ -1,0 +1,116 @@
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible"
+          content="ie=edge" />
+    <title>Linear Regression web app</title>
+    <link rel="stylesheet"
+          href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+    
+    <link rel="shortcut icon" href="static/favicon.ico" type="image/x-icon">
+    
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>    
+</head>
+
+<body>
+    <div class="container">
+        <div class="jumbotron text-center">
+            <h1>Ty Sanyude</h1>
+            <p class="intro-position">
+                <span>Data Analysis | </span>
+                <span>Machine Learning | </span>
+                <span>Business Analytics |</span> 
+            </p>
+
+            <p><a class="btn btn-primary btn-lg"
+                   href="mailto:tsanyude@asu.edu"
+                   role="button">Contact Me</a></p>
+                   
+        </div>
+        
+        </div>
+
+        <!-- us map -->
+        
+             {{ prediction_text }}
+             
+           
+
+            <div class="col-md-4">
+                <form action="{{ url_for('predict')}}"method="post">
+                    <input type="text" name="Price" placeholder="Price" required="required" />
+                    <input type="text" name="Ad Amount" placeholder="Ad Amount" required="required" />
+                    <button type="submit" class="btn btn-primary btn-block btn-large">Predict sales </button>
+                </form>
+            </div>
+            
+            <!-- basic web table of data -->
+            <div class="col-md-4">
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th>Sales</th>
+                            <th>Price</th>
+                            <th>Advertising</th>
+                            
+                        </tr>
+                    </thead>
+                    <tbody></tbody>
+                </table>
+            </div>
+
+
+
+
+            </div>
+            <!-- 3d plot of the data-->
+            <div class="col-md-4">
+                <div id="plotArea"></div>
+                <script src="static/js/plots2.js"></script>
+
+
+
+
+          
+
+
+
+            </div>
+            
+        </div>
+
+
+
+
+<footer class="page-footer font-small special-color-dark pt-4">
+
+    <!-- Footer Elements -->
+    <div class="container">
+  
+      <!-- Social buttons -->
+      
+    <!-- Footer Elements -->
+  
+    <!-- Copyright -->
+    <div class="footer-copyright text-center py-3">© 2020 Copyright Ty Sanyude
+      
+    </div>
+    <!-- Copyright -->
+  
+  </footer>
+  <!-- Footer -->
+  
+
+
+
+
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.11.0/d3.js"></script>
+    <script src="static/js/data2.js"></script>
+    <script src="static/js/app1.js"></script>
+</body>
+
+</html>
