@@ -21,7 +21,8 @@ This is a simple web application demonstrating how to deploy a **linear regressi
 
 ### 🖥️ Homepage with Input Form
 
-![1](https://github.com/user-attachments/assets/33b5256c-c06d-4d01-8f81-148ddcddb379)
+![3333](https://github.com/user-attachments/assets/7d4d7182-c682-407b-94ad-f0a656a08a8c)
+
 
 
 ### ⚙️ Model Logic Behind the Scenes
