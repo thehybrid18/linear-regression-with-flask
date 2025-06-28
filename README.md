@@ -5,6 +5,8 @@ This is a simple web application demonstrating how to deploy a **linear regressi
 
 🔗 **Live demo (was previously hosted on Heroku):** [regression-with-flask.herokuapp.com](https://regression-with-flask.herokuapp.com)
 
+> 📐 This notebook also is a modern ode to the first data mining model — **Linear Regression**, introduced by **Adrien-Marie Legendre** in **1805**.
+
 ---
 
 ## 🚀 Features
