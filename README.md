@@ -3,7 +3,7 @@
 
 This is a simple web application demonstrating how to deploy a **linear regression model** using the Flask web framework. The app accepts user input, runs predictions using a pre-trained model (`model.pkl`), and visualizes results using JavaScript charts.
 
-🔗 **Live demo (was previously hosted on Heroku):** [regression-with-flask.herokuapp.com](https://regression-with-flask.herokuapp.com)
+🔗 **Live demo:** [linear-regression-with-flask.onrender.com](https://linear-regression-with-flask.onrender.com/)
 
 > ☺ This notebook also is a modern ode to the first data mining model — **Linear Regression**, introduced by **Adrien-Marie Legendre** in **1805**.
 
